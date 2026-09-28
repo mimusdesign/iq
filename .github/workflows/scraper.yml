@@ -2,7 +2,7 @@ name: Scraper Iraq
 
 on:
   schedule:
-    - cron: '2 2 */2 * *'
+    - cron: '8 4,16 * * *'
   workflow_dispatch:
 
 # Prevent a manual run and a scheduled run (or two schedules) from overlapping.
